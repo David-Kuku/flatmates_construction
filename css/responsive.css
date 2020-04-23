@@ -1,0 +1,170 @@
+/*small devices*/
+@media only screen and (max-width: 767px) {
+    #section-first{
+        height: 200px;
+    }
+    .Construction{
+        margin-top: 250px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    #floata{
+        padding-left: 0px;
+        text-align: center;
+    }
+    #cardcomp{
+        margin:20px 20px;
+    }
+    #img3{
+        display: none;
+    }
+    .jumbotron{
+        margin-left: 0px;
+    }
+    #illu{
+        margin-left: 0px;
+        padding-left: 0px;
+        
+    }
+    .countdown{
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 5px;
+        width: 50px;
+        border:0px;
+        border-radius: 0px;
+        background-color: transparent;
+        
+    }
+    
+    .countdown .span1{
+        display: none;
+    }
+    .countdown .span2{
+        
+        font-size: 17px;
+    }
+    .countdown span {
+        color: black;
+        display:block;
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .col-md-1{
+        display: none;
+    }
+}
+/*tablets*/
+@media only screen and (width: 768px){
+    #img3{
+        margin-left: -30px;
+    }
+    #floata{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .Construction{
+        margin-top: 0px;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    #wrap{
+        text-align: left;
+        width: 100px;
+        margin-left: 0px;
+    }
+    .jumbotron{
+        margin-top: 0px;
+    }
+    #illu{
+        padding-left:0px;
+        margin-top: 80px;
+    }
+    .countdown span {
+        color: black;
+        display:block;
+        font-size: 13px;
+        margin-top: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    #cardcomp{
+        padding-left: 80px;
+    }
+    .countdown{
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 5px;
+        width: 50px;
+        border:0px;
+        border-radius: 0px;
+        background-color: transparent;
+    }
+    .countdown .span2{
+        display: none;
+    }
+    .countdown .span1{
+        font-size: 11px;
+    }
+    
+}
+@media only screen and (width: 320px){
+    #cardcomp{
+        margin:20px 0px !important;
+    }
+}
+@media only screen and (width: 426px){
+    #cardcomp{
+        margin:20px 40px !important;
+    }
+}
+@media only screen and (width: 411px){
+    #cardcomp{
+        margin:20px 40px !important;
+    }
+}
+@media only screen and (width: 414px){
+    #cardcomp{
+        margin:20px 40px !important;
+    }
+}
+
+    
+    /*medium devices and desktops*/
+    @media only screen and (min-width: 922px) {
+        .countdown .span2{
+            display: none;
+        }
+        .countdown .span1{
+            font-size: 15px;
+        }
+        #third-card{
+            margin-left: 130px;
+        }
+        #floata{
+            padding-left: 0px;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width:736px) and (min-width: 667px){
+        #third-card{
+            margin-left: 130px;
+        }
+    }
+    
+    /* large devices and widescreens*/
+    @media only screen and (min-width: 1200px) {
+        #third-card{
+                margin-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+        }
+        #floata{
+        padding-left: 0px;
+        text-align: center;
+    }
+    }
+    /*small phones */
+    

@@ -1,0 +1,135 @@
+
+header{
+    background-color: white
+}
+#section-first{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#section-first:before
+{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #33A73E;
+
+    border-radius: 0 0 50% 50%/ 0 0 100% 100%;
+    transform: scaleX(1.5);
+}
+#section-first #sec{
+     position: relative;
+    z-index: 1;
+    margin: 0 auto;
+}
+hr{
+    margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: grey
+}
+#horizon {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-style: inset;
+  border-width: 1px;
+  background-color: rgba(0,0,0,0.9);
+}
+#img3{
+    display: flex;
+    justify-content: center;
+    height:150px;
+    width: 200px;
+    margin-left: 30px;
+}
+#illustration{
+    height: 400px;
+    margin-top: 20px;
+
+}
+.pain{
+  color: green;
+  margin-bottom: 0px
+}
+.countdown{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border:5px solid white;
+  margin: 0 20px;
+  font-size: 13px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  background-color: white
+
+}
+.countdown .span1{
+  color: black;
+  font-size: 16px
+}
+.countdown .span2{
+  font-size: 10px;
+}
+.countdown span {
+  color: black;
+  display:block;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.Construction{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.wrap{
+  text-align: center;
+}
+#illu{
+    display: inline-block;
+    padding-left: 80px;
+}
+.jumbotron{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0,0,0,0);
+  height: 300px;
+}
+.card{
+  display: inline-block;
+  border-color: transparent;
+}
+#cardcomp{
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer{
+  background-color: rgba(0,0,0,0.6)
+}
+#floata{
+  padding-left: 0px;
+  text-align: center;
+}
+.nav-item{
+  margin-left: 20px;
+}
+.card-title,.card-text{
+    text-align: center;
+}
+#icons{
+    font-size: 26px
+}
+.btn{
+    margin-left: 70px;
+    background-color: #33A73E;
+}
